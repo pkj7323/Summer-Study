@@ -1,0 +1,4 @@
+﻿  CCore.cpp
+  LabProject.cpp
+C:\Users\MSI\source\repos\LabProject\LabProject\LabProject.cpp(78,1): warning C4715: 'wWinMain': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  LabProject.vcxproj -> C:\Users\MSI\source\repos\LabProject\x64\Debug\LabProject.exe

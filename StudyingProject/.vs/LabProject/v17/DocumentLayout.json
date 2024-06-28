@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MSI\\source\\repos\\LabProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\LabProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\LabProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "define.h",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\define.h",
+              "RelativeDocumentMoniker": "LabProject\\define.h",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\define.h",
+              "RelativeToolTip": "LabProject\\define.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-26T13:10:18.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\pch.h",
+              "RelativeDocumentMoniker": "LabProject\\pch.h",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\pch.h",
+              "RelativeToolTip": "LabProject\\pch.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-26T13:09:24.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CCore.cpp",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\CCore.cpp",
+              "RelativeDocumentMoniker": "LabProject\\CCore.cpp",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\CCore.cpp",
+              "RelativeToolTip": "LabProject\\CCore.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T12:44:55.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CCore.h",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\CCore.h",
+              "RelativeDocumentMoniker": "LabProject\\CCore.h",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\CCore.h",
+              "RelativeToolTip": "LabProject\\CCore.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-26T12:43:46.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LabProject.cpp",
+              "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\LabProject.cpp",
+              "RelativeDocumentMoniker": "LabProject\\LabProject.cpp",
+              "ToolTip": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\LabProject.cpp",
+              "RelativeToolTip": "LabProject\\LabProject.cpp",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAlwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T10:36:12.001Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
