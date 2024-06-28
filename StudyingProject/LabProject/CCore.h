@@ -6,6 +6,7 @@ public:
 	
 	void Init();
 	void Run();
+	void Render(HDC hdc);
 };
 //싱글톤 : 하나의 인스턴스를 만들기 위해 사용
 //하나의 객체를 만들기 위해 사용

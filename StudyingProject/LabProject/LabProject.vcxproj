@@ -24,6 +24,7 @@
     <ProjectGuid>{80a074bb-970c-4c8f-afac-5f3b7ee03be0}</ProjectGuid>
     <RootNamespace>LabProject</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>studyProject</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -132,14 +133,14 @@
     <ClInclude Include="CCore.h" />
     <ClInclude Include="define.h" />
     <ClInclude Include="framework.h" />
-    <ClInclude Include="LabProject.h" />
+    <ClInclude Include="studyProject.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp" />
-    <ClCompile Include="LabProject.cpp" />
+    <ClCompile Include="studyProject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LabProject.rc" />
