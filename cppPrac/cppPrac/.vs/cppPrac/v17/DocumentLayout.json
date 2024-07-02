@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PARK\\Documents\\Summer-Study\\cppPrac\\cppPrac\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A86FBB-D4A6-4A7E-9515-865C02BF6E77}|cppPrac\\cppPrac.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\cppPrac\\cppPrac\\cppPrac\\operator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5A86FBB-D4A6-4A7E-9515-865C02BF6E77}|cppPrac\\cppPrac.vcxproj|solutionrelative:cppPrac\\operator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,15 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 209,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "operator.cpp",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\cppPrac\\cppPrac\\cppPrac\\operator.cpp",
+              "RelativeDocumentMoniker": "cppPrac\\operator.cpp",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\cppPrac\\cppPrac\\cppPrac\\operator.cpp",
+              "RelativeToolTip": "cppPrac\\operator.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-02T17:41:09.744Z",
+              "EditorCaption": ""
             }
           ]
         },
