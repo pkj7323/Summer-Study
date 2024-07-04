@@ -1,15 +1,20 @@
 ﻿// LabProject.cpp : 애플리케이션에 대한 진입점을 정의합니다.
 //
 #include "pch.h"
+//무조건 먼저 include해야함
+
+
+
 
 #include <vector>
 #include "framework.h"
 #include "studyProject.h"
-
+#include "CCore.h"
 using std::vector;
 #define MAX_LOADSTRING 100
 
 // 전역 변수:
+HWND hWnd;
 HINSTANCE hInst;                                // 현재 인스턴스입니다.
 WCHAR szTitle[MAX_LOADSTRING];                  // 제목 표시줄 텍스트입니다.
 WCHAR szWindowClass[MAX_LOADSTRING];            // 기본 창 클래스 이름입니다.
@@ -22,11 +27,12 @@ LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
 
 int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
-                     _In_opt_ HINSTANCE hPrevInstance,
-                     _In_ LPWSTR    lpCmdLine,
-                     _In_ int       nCmdShow)
+    _In_opt_ HINSTANCE hPrevInstance,
+    _In_ LPWSTR    lpCmdLine,
+    _In_ int       nCmdShow)
 {
-    
+
+
     //인스턴스 핸들 필요
     //prev인스턴스 필요없음
     //
@@ -34,6 +40,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(lpCmdLine);//too
 
     // TODO: 여기에 코드를 입력합니다.
+	
+
+
 
     // 전역 문자열을 초기화합니다.
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);//제목 표시줄에 띄울 문자열
@@ -41,14 +50,24 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     MyRegisterClass(hInstance);
 
     // 애플리케이션 초기화를 수행합니다:
-    if (!InitInstance (hInstance, nCmdShow))
+    if (!InitInstance(hInstance, nCmdShow))
     {
+        return FALSE;
+    }
+    
+    if (FAILED(CCore::Instance()->Init(hWnd,POINT{1200,768})))
+    {
+		MessageBox(nullptr, L"CORE 객체 최기화 실패", L"에러", MB_OK);
         return FALSE;
     }
     //단축키 단축키가 눌렸는지 안눌렸는지 확인하는 부분
     HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_LABPROJECT));
 
     MSG msg;
+
+
+
+
 
     // 기본 메시지 루프입니다:
     // 프로그램 내부 메세지큐가 존재 메세지를 받아와서 메시지를 선입선출 방식으로 처리함
@@ -65,16 +84,12 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
             }
         }
         else {
-            // 게임 진행이 여기서 진행
-            // 디자인 패턴
-			// 싱글톤 패턴
-            // 게임 프레임 워크
-			// 초기화->게임루프(렌더)->종료
+            CCore::Instance()->Progress();
         }
         
     }
 
-    
+	return (int)msg.wParam;
 }
 
 
@@ -119,7 +134,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 {
    hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
 
-   HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
+   hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
       CW_USEDEFAULT, 0, CW_USEDEFAULT, 0, nullptr, nullptr, hInstance, nullptr);
 
    if (!hWnd)

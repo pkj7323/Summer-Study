@@ -1,2 +1,13 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 중간 디렉터리(x64\Debug\)에 다른 프로젝트(LabProject.vcxproj)에서 공유하는 파일이 포함되어 있습니다.  이로 인해 잘못된 정리 및 다시 빌드 동작이 수행될 수 있습니다.
+  CCore.cpp
+C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\Struct.h(5,24): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\Struct.h(5,30): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(69,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(68,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(67,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(66,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   LabProject.vcxproj -> C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\x64\Debug\studyProject.exe

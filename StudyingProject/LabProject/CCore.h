@@ -4,9 +4,18 @@ class CCore
 	SINGLE(CCore);
 public:
 	
-	void Init();
-	void Run();
-	void Render(HDC hdc);
+	int Init(HWND, POINT);
+	void Progress();
+	
+private:
+	void render();
+	void update();
+private:
+	HDC m_hdc;
+	HDC m_backdc;
+	HWND m_hwnd;
+	BITMAP m_bitmap;
+	POINT m_ptResolution;
 };
 //싱글톤 : 하나의 인스턴스를 만들기 위해 사용
 //하나의 객체를 만들기 위해 사용
