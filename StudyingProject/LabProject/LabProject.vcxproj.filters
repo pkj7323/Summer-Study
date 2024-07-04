@@ -22,6 +22,9 @@
     <Filter Include="Game\00_Core">
       <UniqueIdentifier>{bff0113d-ca65-4af9-bcf3-b4867510748f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\02_Manager">
+      <UniqueIdentifier>{e1972694-ddc9-4ab8-b03a-ff5a101be384}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -51,6 +54,9 @@
     <ClInclude Include="Struct.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>Game\02_Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="studyProject.cpp">
@@ -61,6 +67,9 @@
     </ClCompile>
     <ClCompile Include="CObject.cpp">
       <Filter>Game\01_object</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>Game\02_Manager</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -139,11 +139,13 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TimeMgr.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp" />
     <ClCompile Include="CObject.cpp" />
     <ClCompile Include="studyProject.cpp" />
+    <ClCompile Include="TimeMgr.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LabProject.rc" />

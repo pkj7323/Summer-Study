@@ -6,7 +6,7 @@ public:
 	
 	int Init(HWND, POINT);
 	void Progress();
-	
+	HWND GetHwnd() { return m_hwnd; }
 private:
 	void render();
 	void update();

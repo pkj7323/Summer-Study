@@ -1,7 +1,11 @@
 // Date: 2021/09/30
 #include "pch.h"
+//무조건 먼저 include해야함
+
+#include "TimeMgr.h"
 #include "CCore.h"
 #include "CObject.h"
+
 
 CObject obj;
 
@@ -11,6 +15,7 @@ CCore::CCore() :
 }
 CCore::~CCore()
 {
+	ReleaseDC(m_hwnd, m_hdc);
 }
 
 
@@ -27,11 +32,17 @@ int CCore::Init(HWND hWnd, POINT pt)
 	m_hdc = GetDC(m_hwnd);
 	obj.setPos(Vec2((float)(m_ptResolution.x / 2.f), (float)(m_ptResolution.y / 2.f)));
 	obj.setScale(Vec2(100, 100));
+
+	TimeMgr::Instance()->Init();
+
+
 	return S_OK;
 }
 
 void CCore::Progress()
 {
+	TimeMgr::Instance()->Update();
+	TimeMgr::Instance()->Render();
 	update();
 	render();
 
@@ -42,22 +53,23 @@ void CCore::update()
 	Vec2 vPos = obj.GetPos();
 	if (GetAsyncKeyState(VK_LEFT) & 0x8000)
 	{
-		vPos.x -= 10;
+		vPos.x -= 300*TimeMgr::Instance()->GetDeltaTimeF();
 		
 	}
 	if (GetAsyncKeyState(VK_RIGHT) & 0x8000)
 	{
-		vPos.x += 10;
+		vPos.x += 300 * TimeMgr::Instance()->GetDeltaTimeF();
 	}
 	if (GetAsyncKeyState(VK_UP) & 0x8000)
 	{
-		vPos.y -= 10;
+		vPos.y -= 300 * TimeMgr::Instance()->GetDeltaTimeF();
 	}
 	if (GetAsyncKeyState(VK_DOWN) & 0x8000)
 	{
-		vPos.y += 10;
+		vPos.y += 300 * TimeMgr::Instance()->GetDeltaTimeF();
 	}
 	obj.setPos(vPos);
+	
 }
 
 void CCore::render()

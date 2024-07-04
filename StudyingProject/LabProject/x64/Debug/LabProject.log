@@ -6,8 +6,8 @@ C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\Struct.h(5
 C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\Struct.h(5,30): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   (소스 파일 'CCore.cpp'을(를) 컴파일하는 중)
   
-C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(69,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(68,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(67,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(66,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(81,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(80,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(79,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\LabProject\CCore.cpp(78,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   LabProject.vcxproj -> C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\x64\Debug\studyProject.exe
