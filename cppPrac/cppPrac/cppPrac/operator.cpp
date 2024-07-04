@@ -116,6 +116,8 @@ bool MyString::operator==(MyString& str) {
     return !compare(str);  // str 과 같으면 compare 에서 0 을 리턴한다.
 }
 int main() {
+
+	std::cout << "Hello World" << std::endl;
     MyString str1("a word");
     MyString str2("sentence");
     MyString str3("sentence");
