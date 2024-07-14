@@ -12,9 +12,9 @@ private:
 	void update();
 private:
 	HDC m_hdc;
-	HDC m_backdc;
+	HDC m_mdc;
 	HWND m_hwnd;
-	BITMAP m_bitmap;
+	HBITMAP m_hbitmap;
 	POINT m_ptResolution;
 };
 //싱글톤 : 하나의 인스턴스를 만들기 위해 사용

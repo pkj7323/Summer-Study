@@ -134,6 +134,7 @@
     <ClInclude Include="CObject.h" />
     <ClInclude Include="define.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="KeyMgr.h" />
     <ClInclude Include="Struct.h" />
     <ClInclude Include="studyProject.h" />
     <ClInclude Include="pch.h" />
@@ -144,6 +145,7 @@
   <ItemGroup>
     <ClCompile Include="CCore.cpp" />
     <ClCompile Include="CObject.cpp" />
+    <ClCompile Include="KeyMgr.cpp" />
     <ClCompile Include="studyProject.cpp" />
     <ClCompile Include="TimeMgr.cpp" />
   </ItemGroup>

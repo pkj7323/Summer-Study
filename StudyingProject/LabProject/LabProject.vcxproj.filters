@@ -57,6 +57,9 @@
     <ClInclude Include="TimeMgr.h">
       <Filter>Game\02_Manager</Filter>
     </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>Game\02_Manager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="studyProject.cpp">
@@ -69,6 +72,9 @@
       <Filter>Game\01_object</Filter>
     </ClCompile>
     <ClCompile Include="TimeMgr.cpp">
+      <Filter>Game\02_Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
       <Filter>Game\02_Manager</Filter>
     </ClCompile>
   </ItemGroup>

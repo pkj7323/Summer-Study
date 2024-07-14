@@ -10,3 +10,6 @@
 			private:\
 			type();\
 			~type();
+
+#define fDT TimeMgr::Instance()->GetDeltaTimeF()
+#define DT TimeMgr::Instance()->GetDeltaTime()
