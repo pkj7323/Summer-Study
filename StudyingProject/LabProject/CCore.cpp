@@ -3,6 +3,7 @@
 //무조건 먼저 include해야함
 
 #include "TimeMgr.h"
+#include "KeyMgr.h"
 #include "CCore.h"
 #include "CObject.h"
 
@@ -41,14 +42,17 @@ int CCore::Init(HWND hWnd, POINT pt)
 	m_mdc		= CreateCompatibleDC(m_hdc);
 	
 
-	HBITMAP oldBitmap = (HBITMAP)SelectObject(m_mdc, m_hbitmap);
+	HBITMAP oldBitmap = (HBITMAP)SelectObject(m_mdc, m_hbitmap); //전의 필요없는 비트맵을 선택하여 바로 삭제한다.
 	DeleteObject(oldBitmap);
 
 
-	obj.setPos(Vec2((float)(m_ptResolution.x / 2.f), (float)(m_ptResolution.y / 2.f)));
+	obj.setPos(Vec2(static_cast<float>(m_ptResolution.x / 2.f), static_cast<float>(m_ptResolution.y / 2.f)));
 	obj.setScale(Vec2(100, 100));
 
+
+	//Manger 초기화
 	TimeMgr::Instance()->Init();
+	KeyMgr::Instance()->Init();
 
 
 	return S_OK;
@@ -56,30 +60,31 @@ int CCore::Init(HWND hWnd, POINT pt)
 
 void CCore::Progress()
 {
-	TimeMgr::Instance()->Update();
-	TimeMgr::Instance()->Render();
 	update();
 	render();
-
+	//progress는 업데이트와 렌더만 남겨두는 것이 좋다.
 }
 
 void CCore::update()
 {
+	TimeMgr::Instance()->Update();
+	KeyMgr::Instance()->Update();
+
+
 	Vec2 vPos = obj.GetPos();
-	if (GetAsyncKeyState(VK_LEFT) & 0x8000)
+	if (KeyMgr::Instance()->GetKeyState(KEY::LEFT) == KEY_STATE::HOLD)
 	{
 		vPos.x -= 300 * fDT;
-		
 	}
-	if (GetAsyncKeyState(VK_RIGHT) & 0x8000)
+	if (KeyMgr::Instance()->GetKeyState(KEY::RIGHT) == KEY_STATE::HOLD)
 	{
 		vPos.x += 300 * fDT;
 	}
-	if (GetAsyncKeyState(VK_UP) & 0x8000)
+	if (KeyMgr::Instance()->GetKeyState(KEY::UP) == KEY_STATE::HOLD)
 	{
 		vPos.y -= 300 * fDT;
 	}
-	if (GetAsyncKeyState(VK_DOWN) & 0x8000)
+	if (KeyMgr::Instance()->GetKeyState(KEY::DOWN) == KEY_STATE::HOLD)
 	{
 		vPos.y += 300 * fDT;
 	}
@@ -89,6 +94,7 @@ void CCore::update()
 
 void CCore::render()
 {
+	TimeMgr::Instance()->Render();
 	Rectangle(m_mdc, -1, -1, m_ptResolution.x + 1, m_ptResolution.y + 1);
 	Rectangle(m_mdc
 		, static_cast<int>(obj.GetPos().x - obj.GetSacle().x / 2)

@@ -7,5 +7,6 @@
 using std::vector;
 #include<string>
 using std::string;
+using std::wstring;
 #include<iostream>
 using std::cout;

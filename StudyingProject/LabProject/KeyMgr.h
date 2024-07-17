@@ -15,9 +15,12 @@ enum class KEY {
 	ENTER,
 	ESC,
 	ALT,
+	LSHIFT,
+	END,
 	Q,
 	W,
 	E,
+	R,
 	T,
 	Y,
 	U,
@@ -33,7 +36,6 @@ enum class KEY {
 	J,
 	K,
 	L,
-	R,
 	Z,
 	X,
 	C,
@@ -42,8 +44,7 @@ enum class KEY {
 	N,
 	M,
 
-	LSHIFT,
-	END,
+	
 
 	LAST
 };

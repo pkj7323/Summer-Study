@@ -11,11 +11,11 @@ private:
 	void render();
 	void update();
 private:
-	HDC m_hdc;
-	HDC m_mdc;
-	HWND m_hwnd;
-	HBITMAP m_hbitmap;
-	POINT m_ptResolution;
+	HDC		m_hdc;
+	HDC		m_mdc;
+	HWND	m_hwnd;
+	HBITMAP	m_hbitmap;
+	POINT	m_ptResolution;
 };
 //싱글톤 : 하나의 인스턴스를 만들기 위해 사용
 //하나의 객체를 만들기 위해 사용

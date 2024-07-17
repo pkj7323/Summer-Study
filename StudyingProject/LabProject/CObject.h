@@ -2,8 +2,8 @@
 class CObject
 {
 private:
-	Vec2 vPos;
-	Vec2 vScale;
+	Vec2	vPos;
+	Vec2	vScale;
 public:
 	CObject();
 	~CObject();
