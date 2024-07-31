@@ -16,9 +16,6 @@
     <Filter Include="Game">
       <UniqueIdentifier>{b4e53698-ab27-4c58-a8a3-7a15f9704fe6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\01_object">
-      <UniqueIdentifier>{99da321c-c4da-472e-aee7-8d698da17d03}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Game\00_Core">
       <UniqueIdentifier>{bff0113d-ca65-4af9-bcf3-b4867510748f}</UniqueIdentifier>
     </Filter>
@@ -37,11 +34,17 @@
     <Filter Include="Game\03_Scene">
       <UniqueIdentifier>{ff6d35c0-aac6-4d5e-9fba-abe9ce531991}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\03_Scene\Scene">
+    <Filter Include="Game\03_Scene\Scenes">
       <UniqueIdentifier>{0363dc43-23da-4469-b387-3edb2c4ed612}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\03_Scene\Scene\Start">
+    <Filter Include="Game\03_Scene\Scenes\Start">
       <UniqueIdentifier>{8165beb3-aa46-4810-af5b-8c8ba1d5a814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01_Object">
+      <UniqueIdentifier>{99da321c-c4da-472e-aee7-8d698da17d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\01_Object\Player">
+      <UniqueIdentifier>{8ea7d648-c4c0-4663-a5ef-d29b12477f53}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -67,7 +70,7 @@
       <Filter>Game</Filter>
     </ClInclude>
     <ClInclude Include="CObject.h">
-      <Filter>Game\01_object</Filter>
+      <Filter>Game\01_Object</Filter>
     </ClInclude>
     <ClInclude Include="Struct.h">
       <Filter>헤더 파일</Filter>
@@ -85,7 +88,10 @@
       <Filter>Game\03_Scene</Filter>
     </ClInclude>
     <ClInclude Include="StartScene.h">
-      <Filter>Game\03_Scene\Scene\Start</Filter>
+      <Filter>Game\03_Scene\Scenes\Start</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\01_Object\Player</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -96,7 +102,7 @@
       <Filter>Game\00_Core</Filter>
     </ClCompile>
     <ClCompile Include="CObject.cpp">
-      <Filter>Game\01_object</Filter>
+      <Filter>Game\01_Object</Filter>
     </ClCompile>
     <ClCompile Include="KeyMgr.cpp">
       <Filter>Game\02_Manager\Key</Filter>
@@ -111,7 +117,10 @@
       <Filter>Game\03_Scene</Filter>
     </ClCompile>
     <ClCompile Include="StartScene.cpp">
-      <Filter>Game\03_Scene\Scene\Start</Filter>
+      <Filter>Game\03_Scene\Scenes\Start</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\01_Object\Player</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -8,7 +8,7 @@ public:
 
 	void Enter();
 	void Exit();
-	void Update() override;
-	void Render(HDC hDC) override;
+	void Update();
+	void Render(HDC hDC);
 };
 

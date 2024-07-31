@@ -9,9 +9,12 @@ public:
 	~CObject();
 
 	Vec2 GetPos() { return vPos; }
-	void setPos(Vec2 Pos) { this->vPos = Pos; }
+	void SetPos(Vec2 Pos) { this->vPos = Pos; }
 
 	Vec2 GetSacle() { return vScale; }
-	void setScale(Vec2 scale) { this->vScale = scale; }
+	void SetScale(Vec2 scale) { this->vScale = scale; }
+	
+	virtual void Update();
+	virtual void Render(HDC hDC);
 };
 

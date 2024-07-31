@@ -6,9 +6,10 @@
 #include "KeyMgr.h"
 #include "CCore.h"
 #include "CObject.h"
+#include "SceneMgr.h"
 
 
-CObject obj;
+
 
 CCore::CCore() :
 	m_hdc{}, m_mdc{}, m_hwnd{}, m_hbitmap{}, m_ptResolution{}
@@ -46,13 +47,12 @@ int CCore::Init(HWND hWnd, POINT pt)
 	DeleteObject(oldBitmap);
 
 
-	obj.setPos(Vec2(static_cast<float>(m_ptResolution.x / 2.f), static_cast<float>(m_ptResolution.y / 2.f)));
-	obj.setScale(Vec2(100, 100));
-
+	
 
 	//Manger 초기화
 	TimeMgr::Instance()->Init();
 	KeyMgr::Instance()->Init();
+	SceneMgr::Instance()->Init();
 
 
 	return S_OK;
@@ -69,42 +69,23 @@ void CCore::update()
 {
 	TimeMgr::Instance()->Update();
 	KeyMgr::Instance()->Update();
+	SceneMgr::Instance()->Update();
 
-
-	Vec2 vPos = obj.GetPos();
-	if (KeyMgr::Instance()->GetKeyState(KEY::LEFT) == KEY_STATE::HOLD)
-	{
-		vPos.x -= 300 * fDT;
-	}
-	if (KeyMgr::Instance()->GetKeyState(KEY::RIGHT) == KEY_STATE::HOLD)
-	{
-		vPos.x += 300 * fDT;
-	}
-	if (KeyMgr::Instance()->GetKeyState(KEY::UP) == KEY_STATE::HOLD)
-	{
-		vPos.y -= 300 * fDT;
-	}
-	if (KeyMgr::Instance()->GetKeyState(KEY::DOWN) == KEY_STATE::HOLD)
-	{
-		vPos.y += 300 * fDT;
-	}
-	obj.setPos(vPos);
+	
 	
 }
 
 void CCore::render()
 {
-	TimeMgr::Instance()->Render();
+	
 	Rectangle(m_mdc, -1, -1, m_ptResolution.x + 1, m_ptResolution.y + 1);
-	Rectangle(m_mdc
-		, static_cast<int>(obj.GetPos().x - obj.GetSacle().x / 2)
-		, static_cast<int>(obj.GetPos().y - obj.GetSacle().y / 2)
-		, static_cast<int>(obj.GetPos().x + obj.GetSacle().x / 2)
-		, static_cast<int>(obj.GetPos().y + obj.GetSacle().y / 2));
+	SceneMgr::Instance()->Render(m_mdc);
+	
 
 	BitBlt(m_hdc, 0, 0, m_ptResolution.x, m_ptResolution.y, m_mdc, 0, 0, SRCCOPY);
 	//프레임 드랍이 나타나지만 적어도 이 이외에 프레임 드랍이 발생하지 않을 수있다.
 	//3d로 가면 너무 많아지므로 gpu사용
+	TimeMgr::Instance()->Render();
 }
 
 

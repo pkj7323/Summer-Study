@@ -8,15 +8,23 @@ class CScene
 {
 public:
 	CScene();
-	~CScene();
+	virtual ~CScene();	//그러나 소멸자는 가상함수로 만들어야한다. 가상 함수로 만들면 자식 클래스의 소멸자가 호출된다.
+	//왜? -> 자식 클래스가 소멸자를 호출 햇을 때 부모 클래스의 소멸자가 호출되지 않는다. 그래서 가상함수로 만들어야한다.
 
 	virtual void Enter() = 0;
-	virtual	void Exit() = 0;//순수 가상함수로 만들어서 상속받은 클래스에서 구현하도록 한다.
-	virtual void Update();
-	virtual void Render(HDC hDC);
+	virtual	void Exit() = 0;	//순수 가상함수로 만들어서 상속받은 클래스에서 구현하도록 한다.
+	
+	void Update(); //업데이트를 강제할 필요성이 없을 수도 있다.
+	void Render(HDC hDC);	//렌더링을 강제할 필요성이 없을 수도 있다.
+
+	
 
 	inline void SetName(const wstring& strName) { m_strName = strName; }
-	wstring GetName() { return m_strName; }
+	const wstring& GetName() { return m_strName; }
+protected:
+	void AddObject(CObject* pObj, GROUP_TYPE eGroupType) {
+		m_vecObj[static_cast<UINT>(eGroupType)].push_back(pObj);
+	}
 private:
 	vector<CObject*>	m_vecObj[static_cast<UINT>(GROUP_TYPE::END)];//32개의 배열을 만든다.
 	//2차원 배열처럼 여러개의 배열이 생성 되지만 2차원 배열처럼 연결되어 있지 않다.
