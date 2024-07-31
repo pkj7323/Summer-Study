@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="헤더 파일">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
@@ -46,6 +42,12 @@
     <Filter Include="Game\01_Object\Player">
       <UniqueIdentifier>{8ea7d648-c4c0-4663-a5ef-d29b12477f53}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\01_Object\Monster">
+      <UniqueIdentifier>{6698028e-0a86-4f54-8408-2ea4b3cc334a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스파일">
+      <UniqueIdentifier>{5dd4c078-f30e-45c1-be32-97f56330aa24}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -62,12 +64,6 @@
     </ClInclude>
     <ClInclude Include="CCore.h">
       <Filter>Game\00_Core</Filter>
-    </ClInclude>
-    <ClInclude Include="pch.h">
-      <Filter>Game</Filter>
-    </ClInclude>
-    <ClInclude Include="define.h">
-      <Filter>Game</Filter>
     </ClInclude>
     <ClInclude Include="CObject.h">
       <Filter>Game\01_Object</Filter>
@@ -93,16 +89,19 @@
     <ClInclude Include="Player.h">
       <Filter>Game\01_Object\Player</Filter>
     </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Game\01_Object\Monster</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="studyProject.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="CCore.cpp">
       <Filter>Game\00_Core</Filter>
-    </ClCompile>
-    <ClCompile Include="CObject.cpp">
-      <Filter>Game\01_Object</Filter>
     </ClCompile>
     <ClCompile Include="KeyMgr.cpp">
       <Filter>Game\02_Manager\Key</Filter>
@@ -121,6 +120,15 @@
     </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>Game\01_Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>Game\01_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Game\01_Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="studyProject.cpp">
+      <Filter>소스파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

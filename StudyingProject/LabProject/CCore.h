@@ -7,6 +7,7 @@ public:
 	int Init(HWND, POINT);
 	void Progress();
 	HWND GetHwnd() { return m_hwnd; }
+	POINT GetResolution() { return m_ptResolution; }
 private:
 	void render();
 	void update();

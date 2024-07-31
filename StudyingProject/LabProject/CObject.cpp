@@ -13,10 +13,7 @@ CObject::~CObject()
 {
 }
 
-void CObject::Update()
-{
-	
-}
+
 
 void CObject::Render(HDC hDC)
 {

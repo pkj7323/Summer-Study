@@ -2,7 +2,8 @@
 #include "StartScene.h"
 #include "CObject.h"
 #include "Player.h"
-
+#include "Monster.h"
+#include "CCore.h"
 StartScene::StartScene()
 {
 }
@@ -19,11 +20,22 @@ void StartScene::Enter()
 	pObj->SetScale(Vec2(100, 100));
 	AddObject(pObj, GROUP_TYPE::PLAYER);
 
-	CObject* Obj = new CObject;
-	Obj->SetPos(Vec2(640, 348));
-	Obj->SetScale(Vec2(100, 100));
-	AddObject(Obj, GROUP_TYPE::DEFAULT);
+	//몬스터 추가
+	int monCount = 5;
+	float moveDist = 25.f;
+	float objScale = 50.f;
+	Vec2 resolution = CCore::Instance()->GetResolution();
+	float term = (resolution.x - ((moveDist + objScale / 2.f) * 2.f)) / (float)(monCount - 1);
 
+	for (size_t i = 0; i < monCount; i++)
+	{
+		auto* monster = new Monster;
+		monster->SetCenterPos(Vec2((moveDist + objScale / 2.f) + (float)i * term, 100.f));
+		monster->SetPos(Vec2(monster->GetCenterPos()));
+		monster->SetMaxDis(moveDist);
+		monster->SetScale(Vec2(objScale, objScale));
+		AddObject(monster, GROUP_TYPE::ENEMY);
+	}
 }
 
 void StartScene::Exit()

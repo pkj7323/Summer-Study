@@ -30,8 +30,6 @@ int CCore::Init(HWND hWnd, POINT pt)
 	m_ptResolution = pt;
 	RECT rc = { 0, 0, m_ptResolution.x, m_ptResolution.y };
 	AdjustWindowRect(&rc, WS_OVERLAPPEDWINDOW, true);
-	m_ptResolution.x = rc.right - rc.left;
-	m_ptResolution.y = rc.bottom - rc.top;
 	SetWindowPos(m_hwnd, nullptr, 100, 100, rc.right - rc.left, rc.bottom - rc.top, 0);
 
 
