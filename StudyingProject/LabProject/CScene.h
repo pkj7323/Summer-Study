@@ -14,7 +14,7 @@ public:
 	virtual void Enter() = 0;
 	virtual	void Exit() = 0;	//순수 가상함수로 만들어서 상속받은 클래스에서 구현하도록 한다.
 	
-	void Update(); //업데이트를 강제할 필요성이 없을 수도 있다.
+	virtual void Update(); //업데이트를 강제할 필요성이 없을 수도 있다.
 	void Render(HDC hDC);	//렌더링을 강제할 필요성이 없을 수도 있다.
 
 	
@@ -22,9 +22,14 @@ public:
 	inline void SetName(const wstring& strName) { m_strName = strName; }
 	const wstring& GetName() { return m_strName; }
 protected:
-	void AddObject(CObject* pObj, GROUP_TYPE eGroupType) {
+	template<typename T>
+	T* AddObject(GROUP_TYPE eGroupType) {
+		T* pObj = new T;
 		m_vecObj[static_cast<UINT>(eGroupType)].push_back(pObj);
+		return dynamic_cast<T*>(m_vecObj[static_cast<UINT>(eGroupType)].back());
 	}
+
+	void DeleteObject(GROUP_TYPE eGroupType);
 private:
 	vector<CObject*>	m_vecObj[static_cast<UINT>(GROUP_TYPE::END)];//32개의 배열을 만든다.
 	//2차원 배열처럼 여러개의 배열이 생성 되지만 2차원 배열처럼 연결되어 있지 않다.

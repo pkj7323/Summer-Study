@@ -48,6 +48,12 @@
     <Filter Include="소스파일">
       <UniqueIdentifier>{5dd4c078-f30e-45c1-be32-97f56330aa24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\01_Object\Projectile">
+      <UniqueIdentifier>{6762ca02-918d-4149-8b17-36dcca5270c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\02_Manager\Projectile">
+      <UniqueIdentifier>{45c33ad4-3776-4c68-8af0-3761cee23cf4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -98,6 +104,12 @@
     <ClInclude Include="Monster.h">
       <Filter>Game\01_Object\Monster</Filter>
     </ClInclude>
+    <ClInclude Include="Missile.h">
+      <Filter>Game\01_Object\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileMgr.h">
+      <Filter>Game\02_Manager\Projectile</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp">
@@ -129,6 +141,12 @@
     </ClCompile>
     <ClCompile Include="studyProject.cpp">
       <Filter>소스파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Missile.cpp">
+      <Filter>Game\01_Object\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileMgr.cpp">
+      <Filter>Game\02_Manager\Projectile</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

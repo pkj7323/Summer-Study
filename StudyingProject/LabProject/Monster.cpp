@@ -1,9 +1,10 @@
 #include "pch.h"
 #include "Monster.h"
-
+#include "Missile.h"
 #include "TimeMgr.h"
+#include "ProjectileMgr.h"
 Monster::Monster()
-	:speed{ 100 }, maxDis{ 50 }, dir{ 1 }, centerPos{Vec2(0,0)}
+	:speed{ 100 }, maxDis{ 50 }, dir{ 1 }, centerPos{ Vec2(0,0) }, hp{ 10.f }
 {
 }
 
@@ -13,6 +14,7 @@ Monster::~Monster()
 
 void Monster::Update()
 {
+	
 	Vec2 curPos = GetPos();
 	curPos.x += speed * fDT * dir;
 
@@ -21,6 +23,23 @@ void Monster::Update()
 	{
 		dir *= -1;
 		curPos.x += dist * dir;
+	}
+	
+	auto pMissiles = ProjectileMgr::Instance()->GetMissiles();
+	for (size_t i = 0; i < pMissiles.size(); ++i)
+	{
+		if (pMissiles[i]->GetGroupType() == GROUP_TYPE::PLAYER)
+		{
+			if (((GetPos().x - GetScale().x / 2.f) < pMissiles[i]->GetPos().x 
+				&& (GetPos().x + GetScale().x / 2.f) > pMissiles[i]->GetPos().x)
+				&& ((GetPos().y - GetScale().y / 2.f) < pMissiles[i]->GetPos().y 
+					&& (GetPos().y + GetScale().y / 2.f) > pMissiles[i]->GetPos().y))
+			{
+				hp -= pMissiles[i]->GetDamage();
+				pMissiles[i]->SetIsDead(true);
+			}
+		}
+
 	}
 
 	SetPos(curPos);

@@ -16,5 +16,7 @@ public:
 	
 	virtual void Update() = 0;
 	virtual void Render(HDC hDC);
+
+	
 };
 

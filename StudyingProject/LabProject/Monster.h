@@ -20,11 +20,15 @@ public:
 
 	Vec2 GetCenterPos() { return centerPos; }
 	void SetCenterPos(Vec2 centerPos) { this->centerPos = centerPos; }
+
+	void SetHp(float hp) { this->hp = hp; }
+	float GetHp() { return hp; }
 private:
 	float	speed;
 	float	maxDis;
 	int		dir;
 	Vec2	centerPos;
+	float	hp;
 
 };
 

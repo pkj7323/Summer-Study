@@ -15,10 +15,10 @@ StartScene::~StartScene()
 void StartScene::Enter()
 {
 	//object 추가
-	CObject* pObj = new Player;
+	auto pObj = AddObject<Player>(GROUP_TYPE::PLAYER);
 	pObj->SetPos(Vec2(640, 348));
 	pObj->SetScale(Vec2(100, 100));
-	AddObject(pObj, GROUP_TYPE::PLAYER);
+	
 
 	//몬스터 추가
 	int monCount = 5;
@@ -29,12 +29,13 @@ void StartScene::Enter()
 
 	for (size_t i = 0; i < monCount; i++)
 	{
-		auto* monster = new Monster;
+		auto monster = AddObject<Monster>(GROUP_TYPE::ENEMY);
 		monster->SetCenterPos(Vec2((moveDist + objScale / 2.f) + (float)i * term, 100.f));
 		monster->SetPos(Vec2(monster->GetCenterPos()));
 		monster->SetMaxDis(moveDist);
 		monster->SetScale(Vec2(objScale, objScale));
-		AddObject(monster, GROUP_TYPE::ENEMY);
+
+		arrMonster.push_back(monster);
 	}
 }
 
@@ -44,6 +45,15 @@ void StartScene::Exit()
 
 void StartScene::Update()
 {
+	CScene::Update();
+	for (size_t i = 0; i < arrMonster.size(); i++)
+	{
+		if (arrMonster[i]->GetHp() <= 0)
+		{
+			delete arrMonster[i];
+			arrMonster.erase(arrMonster.begin() + i);
+		}
+	}
 }
 
 void StartScene::Render(HDC hDC)

@@ -136,8 +136,10 @@
     <ClInclude Include="define.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="KeyMgr.h" />
+    <ClInclude Include="Missile.h" />
     <ClInclude Include="Monster.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="ProjectileMgr.h" />
     <ClInclude Include="SceneMgr.h" />
     <ClInclude Include="StartScene.h" />
     <ClInclude Include="Struct.h" />
@@ -152,8 +154,10 @@
     <ClCompile Include="CObject.cpp" />
     <ClCompile Include="CScene.cpp" />
     <ClCompile Include="KeyMgr.cpp" />
+    <ClCompile Include="Missile.cpp" />
     <ClCompile Include="Monster.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="ProjectileMgr.cpp" />
     <ClCompile Include="SceneMgr.cpp" />
     <ClCompile Include="StartScene.cpp" />
     <ClCompile Include="studyProject.cpp" />

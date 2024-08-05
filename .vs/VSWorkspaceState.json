@@ -3,8 +3,10 @@
     "",
     "\\cppPrac",
     "\\cppPrac\\cppPrac",
-    "\\cppPrac\\cppPrac\\cppPrac"
+    "\\cppPrac\\cppPrac\\cppPrac",
+    "\\StudyingProject",
+    "\\StudyingProject\\LabProject"
   ],
-  "SelectedNode": "\\cppPrac\\cppPrac\\cppPrac\\overloading.cpp",
+  "SelectedNode": "\\StudyingProject\\LabProject\\StartScene.cpp",
   "PreviewInSolutionExplorer": false
 }
