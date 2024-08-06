@@ -29,6 +29,6 @@ private:
 	int		dir;
 	Vec2	centerPos;
 	float	hp;
-
+	
 };
 

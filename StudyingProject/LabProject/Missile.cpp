@@ -3,8 +3,9 @@
 #include "TimeMgr.h"
 #include "CCore.h"
 Missile::Missile() :
-	m_damage{ 1.f }, m_speed{ 500.f }, m_dir{ Vec2_Zero }, m_isFired{ false }, m_isDead{ false }, m_groupType{ GROUP_TYPE::MISSILE }
+	m_damage{ 1.f }, m_speed{ 500.f }, m_dir{ Vec2_Zero }, m_isFired{ false }, m_groupType{ GROUP_TYPE::MISSILE }
 {
+	SetIsDead(false);
 }
 
 Missile::~Missile()
@@ -13,7 +14,7 @@ Missile::~Missile()
 
 void Missile::Update()
 {
-	if (m_isDead)
+	if (GetIsDead())
 		return;
 	if (!m_isFired)
 		return;
@@ -25,13 +26,13 @@ void Missile::Update()
 	if (fabs(GetPos().x - CCore::Instance()->GetResolution().x) > static_cast<float>(CCore::Instance()->GetResolution().x + GetScale().x)
 		|| fabs(GetPos().y - CCore::Instance()->GetResolution().y) > static_cast<float>(CCore::Instance()->GetResolution().y) + GetScale().x)
 	{
-		m_isDead = true;
+		SetIsDead(true);
 	}
 }
 
 void Missile::Render(HDC hDC)
 {
-	if (m_isDead)
+	if (GetIsDead())
 		return;
 	if (!m_isFired)
 		return;
@@ -70,5 +71,4 @@ void Missile::Shoot(Vec2 pos, float damage, float speed, Vec2 Dir)
 	}
 	m_dir = Dir;
 	m_isFired = true;
-	m_isDead = false;
 }

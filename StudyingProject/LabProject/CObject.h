@@ -4,6 +4,7 @@ class CObject
 private:
 	Vec2	vPos;
 	Vec2	vScale;
+	bool	bDead;
 public:
 	CObject();
 	~CObject();
@@ -17,6 +18,7 @@ public:
 	virtual void Update() = 0;
 	virtual void Render(HDC hDC);
 
-	
+	virtual void SetIsDead(bool isDead) { bDead = isDead; }
+	virtual bool GetIsDead() { return bDead; }
 };
 

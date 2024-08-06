@@ -34,8 +34,6 @@ void StartScene::Enter()
 		monster->SetPos(Vec2(monster->GetCenterPos()));
 		monster->SetMaxDis(moveDist);
 		monster->SetScale(Vec2(objScale, objScale));
-
-		arrMonster.push_back(monster);
 	}
 }
 
@@ -45,15 +43,7 @@ void StartScene::Exit()
 
 void StartScene::Update()
 {
-	CScene::Update();
-	for (size_t i = 0; i < arrMonster.size(); i++)
-	{
-		if (arrMonster[i]->GetHp() <= 0)
-		{
-			delete arrMonster[i];
-			arrMonster.erase(arrMonster.begin() + i);
-		}
-	}
+	
 }
 
 void StartScene::Render(HDC hDC)

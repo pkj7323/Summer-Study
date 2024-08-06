@@ -5,6 +5,12 @@
 #include "TimeMgr.h"
 #include "MIssile.h"
 #include "ProjectileMgr.h"
+Player::Player()
+{
+}
+Player::~Player()
+{
+}
 void Player::Update()
 {
 	Vec2 vPos = GetPos();

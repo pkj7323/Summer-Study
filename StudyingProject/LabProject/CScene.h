@@ -14,7 +14,7 @@ public:
 	virtual void Enter() = 0;
 	virtual	void Exit() = 0;	//순수 가상함수로 만들어서 상속받은 클래스에서 구현하도록 한다.
 	
-	virtual void Update(); //업데이트를 강제할 필요성이 없을 수도 있다.
+	void Update(); //업데이트를 강제할 필요성이 없을 수도 있다.
 	void Render(HDC hDC);	//렌더링을 강제할 필요성이 없을 수도 있다.
 
 	

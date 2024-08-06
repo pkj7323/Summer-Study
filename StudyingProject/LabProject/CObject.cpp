@@ -5,7 +5,7 @@
 #include "TimeMgr.h"
 
 CObject::CObject() :
-	vPos{}, vScale{10.f,10.f}
+	vPos{}, vScale{ 10.f,10.f }, bDead{ false }
 {
 }
 

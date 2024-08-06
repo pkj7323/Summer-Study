@@ -14,7 +14,14 @@ Monster::~Monster()
 
 void Monster::Update()
 {
-	
+	if (hp <= 0)
+	{
+		SetIsDead(true);
+	}
+	if (GetIsDead())
+	{
+		return;
+	}
 	Vec2 curPos = GetPos();
 	curPos.x += speed * fDT * dir;
 

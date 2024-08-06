@@ -4,8 +4,10 @@
 class Player : public CObject
 {
 public:
-	virtual void Update() override;
-	virtual void Render(HDC hDC) override;
+	Player();
+	~Player();
 
+	void Update() override;
+	void Render(HDC hDC) override;
 };
 

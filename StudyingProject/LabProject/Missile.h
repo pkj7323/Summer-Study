@@ -13,8 +13,7 @@ public:
 	void SetDamage(float damage) { m_damage = damage; }
 	float GetDamage() { return m_damage; }
 
-	void SetIsDead(bool isDead) { m_isDead = isDead; }
-	bool GetIsDead() { return m_isDead; }
+	
 
 	void SetGroupType(GROUP_TYPE groupType) { m_groupType = groupType; }
 	GROUP_TYPE GetGroupType() { return m_groupType; }
@@ -23,7 +22,7 @@ private:
 	float		m_speed;
 	Vec2		m_dir;
 	bool		m_isFired;
-	bool		m_isDead;
+	
 	GROUP_TYPE	m_groupType;
 };
 
