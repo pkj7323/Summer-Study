@@ -4,6 +4,7 @@
 // 컴파일러 속도가 느려지는 것을 방지하기위해 사용한다.
 // 전방 선언한 클래스가 변경되도 컴파일을 다시할 필요가 없다.
 class CObject;
+class Missile;
 class CScene
 {
 public:
@@ -17,23 +18,30 @@ public:
 	void Update(); //업데이트를 강제할 필요성이 없을 수도 있다.
 	void Render(HDC hDC);	//렌더링을 강제할 필요성이 없을 수도 있다.
 
+	void Shoot(Vec2 pos, float damage, float speed, Vec2 Dir);
 	
+	
+	vector<CObject*>& GetObjectArr(GROUP_TYPE eGroupType) { return m_vecObj[static_cast<UINT>(eGroupType)]; }
 
 	inline void SetName(const wstring& strName) { m_strName = strName; }
 	const wstring& GetName() { return m_strName; }
 protected:
 	template<typename T>
-	T* AddObject(GROUP_TYPE eGroupType) {
+	T* AddObject(GROUP_TYPE eGroupType)
+	{
 		T* pObj = new T;
+		pObj->SetGroupType(eGroupType);
 		m_vecObj[static_cast<UINT>(eGroupType)].push_back(pObj);
 		return dynamic_cast<T*>(m_vecObj[static_cast<UINT>(eGroupType)].back());
 	}
 
-	void DeleteObject(GROUP_TYPE eGroupType);
+	void DeleteObject();
+	
 private:
 	vector<CObject*>	m_vecObj[static_cast<UINT>(GROUP_TYPE::END)];//32개의 배열을 만든다.
 	//2차원 배열처럼 여러개의 배열이 생성 되지만 2차원 배열처럼 연결되어 있지 않다.
 	//그룹타입에 맞는 오브젝트를 추가하기 위해 사용한다. 기본이 32개 이므로 32개의 배열을 만든다.
 	wstring				m_strName;
 };
+
 

@@ -51,9 +51,6 @@
     <Filter Include="Game\01_Object\Projectile">
       <UniqueIdentifier>{6762ca02-918d-4149-8b17-36dcca5270c8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Game\02_Manager\Projectile">
-      <UniqueIdentifier>{45c33ad4-3776-4c68-8af0-3761cee23cf4}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -107,9 +104,6 @@
     <ClInclude Include="Missile.h">
       <Filter>Game\01_Object\Projectile</Filter>
     </ClInclude>
-    <ClInclude Include="ProjectileMgr.h">
-      <Filter>Game\02_Manager\Projectile</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp">
@@ -144,9 +138,6 @@
     </ClCompile>
     <ClCompile Include="Missile.cpp">
       <Filter>Game\01_Object\Projectile</Filter>
-    </ClCompile>
-    <ClCompile Include="ProjectileMgr.cpp">
-      <Filter>Game\02_Manager\Projectile</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

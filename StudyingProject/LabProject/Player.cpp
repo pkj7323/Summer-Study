@@ -4,7 +4,9 @@
 #include "KeyMgr.h"
 #include "TimeMgr.h"
 #include "MIssile.h"
-#include "ProjectileMgr.h"
+
+#include "SceneMgr.h"
+#include "CScene.h"
 Player::Player()
 {
 }
@@ -33,19 +35,19 @@ void Player::Update()
 
 	if (KeyMgr::Instance()->GetKeyState(KEY::DOWN) == KEY_STATE::TAP)
 	{
-		ProjectileMgr::Instance()->Shoot(GetPos(), 1, NULL, Vec2_Down, GROUP_TYPE::PLAYER);
+		SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2_Down);
 	}
 	if (KeyMgr::Instance()->GetKeyState(KEY::RIGHT) == KEY_STATE::TAP)
 	{
-		ProjectileMgr::Instance()->Shoot(GetPos(), 1, NULL, Vec2_Right, GROUP_TYPE::PLAYER);
+		SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2_Right);
 	}
 	if (KeyMgr::Instance()->GetKeyState(KEY::LEFT) == KEY_STATE::TAP)
 	{
-		ProjectileMgr::Instance()->Shoot(GetPos(), 1, NULL, Vec2_Left, GROUP_TYPE::PLAYER);
+		SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2_Left);
 	}
 	if (KeyMgr::Instance()->GetKeyState(KEY::UP) == KEY_STATE::TAP)
 	{
-		ProjectileMgr::Instance()->Shoot(GetPos(), 1, NULL, Vec2_Up, GROUP_TYPE::PLAYER);
+		SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2_Up);
 	}
 	
 	SetPos(vPos);

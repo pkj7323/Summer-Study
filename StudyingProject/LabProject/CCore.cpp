@@ -7,7 +7,7 @@
 #include "CCore.h"
 #include "CObject.h"
 #include "SceneMgr.h"
-#include "ProjectileMgr.h"
+
 
 
 
@@ -18,7 +18,7 @@ CCore::CCore() :
 }
 CCore::~CCore()
 {
-	ProjectileMgr::Instance()->Release();
+	
 	ReleaseDC(m_hwnd, m_hdc);
 
 	DeleteDC(m_mdc);
@@ -69,7 +69,7 @@ void CCore::update()
 {
 	TimeMgr::Instance()->Update();
 	KeyMgr::Instance()->Update();
-	ProjectileMgr::Instance()->Update();//프로젝타일 매니져의 업데이트와 렌더위치를 어디에 해야할까?
+	
 	SceneMgr::Instance()->Update();
 
 	
@@ -80,7 +80,7 @@ void CCore::render()
 {
 	
 	Rectangle(m_mdc, -1, -1, m_ptResolution.x + 1, m_ptResolution.y + 1);
-	ProjectileMgr::Instance()->Render(m_mdc);
+	
 	SceneMgr::Instance()->Render(m_mdc);
 	
 

@@ -5,6 +5,8 @@ private:
 	Vec2	vPos;
 	Vec2	vScale;
 	bool	bDead;
+	float	bDamage;
+	GROUP_TYPE eGroupType;
 public:
 	CObject();
 	~CObject();
@@ -20,5 +22,11 @@ public:
 
 	virtual void SetIsDead(bool isDead) { bDead = isDead; }
 	virtual bool GetIsDead() { return bDead; }
+
+	virtual void SetGroupType(GROUP_TYPE eGroupType) { this->eGroupType = eGroupType; }
+	virtual GROUP_TYPE GetGroupType() { return eGroupType; }
+
+	virtual void SetDamage(float damage) { bDamage = damage; }
+	virtual float GetDamage() { return bDamage; }
 };
 

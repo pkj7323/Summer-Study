@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "CScene.h"
-
 #include "CObject.h"
+#include "Missile.h"
 CScene::CScene()
 {
 }
@@ -19,8 +19,25 @@ CScene::~CScene()
 
 
 
+void CScene::DeleteObject()
+{
+	for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i)
+	{
+		for (size_t j = 0; j < m_vecObj[i].size(); j++)
+		{
+			if (m_vecObj[i][j]->GetIsDead())
+			{
+				delete m_vecObj[i][j];
+				m_vecObj[i][j] = m_vecObj[i].back();
+				m_vecObj[i].pop_back();
+			}
+		}
+	}
+
+}
 void CScene::Update()
 {
+	CScene::DeleteObject();
 	for (UINT i = 0; i < (UINT)GROUP_TYPE::END; ++i)
 	{
 		for (size_t j = 0; j < m_vecObj[i].size(); j++)
@@ -28,7 +45,7 @@ void CScene::Update()
 			m_vecObj[i][j]->Update();
 		}
 	}
-	CScene::DeleteObject(GROUP_TYPE::ENEMY);
+	
 }
 
 void CScene::Render(HDC hDC)
@@ -42,17 +59,12 @@ void CScene::Render(HDC hDC)
 	}
 }
 
-void CScene::DeleteObject(GROUP_TYPE eGroupType)
+void CScene::Shoot(Vec2 pos, float damage, float speed, Vec2 Dir)
 {
-	for (size_t i = 0; i < m_vecObj[static_cast<UINT>(eGroupType)].size(); i++)
-	{
-		if (m_vecObj[static_cast<UINT>(eGroupType)][i]->GetIsDead())
-		{
-			delete m_vecObj[static_cast<UINT>(eGroupType)][i];
-			m_vecObj[static_cast<UINT>(eGroupType)][i] = m_vecObj[static_cast<UINT>(eGroupType)].back();
-			m_vecObj[static_cast<UINT>(eGroupType)].pop_back();
-		}
-	}
+	auto pMissile = AddObject<Missile>(GROUP_TYPE::MISSILE);
+	pMissile->Shoot(pos, damage, speed, Dir);
 }
+
+
 
 

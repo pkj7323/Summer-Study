@@ -3,8 +3,9 @@
 #include "TimeMgr.h"
 #include "CCore.h"
 Missile::Missile() :
-	m_damage{ 1.f }, m_speed{ 500.f }, m_dir{ Vec2_Zero }, m_isFired{ false }, m_groupType{ GROUP_TYPE::MISSILE }
+	m_speed{ 500.f }, m_dir{ Vec2_Zero }, m_isFired{ false }
 {
+	SetDamage(0.f);
 	SetIsDead(false);
 }
 
@@ -64,7 +65,7 @@ void Missile::Render(HDC hDC)
 void Missile::Shoot(Vec2 pos, float damage, float speed, Vec2 Dir)
 {
 	this->SetPos(pos);
-	this->m_damage = damage;
+	SetDamage(damage);
 	if (speed > 0)
 	{
 		this->m_speed = speed;

@@ -2,7 +2,8 @@
 #include "Monster.h"
 #include "Missile.h"
 #include "TimeMgr.h"
-#include "ProjectileMgr.h"
+#include "SceneMgr.h"
+#include "CScene.h"
 Monster::Monster()
 	:speed{ 100 }, maxDis{ 50 }, dir{ 1 }, centerPos{ Vec2(0,0) }, hp{ 10.f }
 {
@@ -15,13 +16,10 @@ Monster::~Monster()
 void Monster::Update()
 {
 	if (hp <= 0)
-	{
 		SetIsDead(true);
-	}
 	if (GetIsDead())
-	{
 		return;
-	}
+	
 	Vec2 curPos = GetPos();
 	curPos.x += speed * fDT * dir;
 
@@ -32,10 +30,10 @@ void Monster::Update()
 		curPos.x += dist * dir;
 	}
 	
-	auto pMissiles = ProjectileMgr::Instance()->GetMissiles();
+	auto pMissiles = SceneMgr::Instance()->GetCurrScene()->GetObjectArr(GROUP_TYPE::MISSILE);
 	for (size_t i = 0; i < pMissiles.size(); ++i)
 	{
-		if (pMissiles[i]->GetGroupType() == GROUP_TYPE::PLAYER)
+		if (pMissiles[i]->GetGroupType() == GROUP_TYPE::MISSILE)
 		{
 			if (((GetPos().x - GetScale().x / 2.f) < pMissiles[i]->GetPos().x 
 				&& (GetPos().x + GetScale().x / 2.f) > pMissiles[i]->GetPos().x)
