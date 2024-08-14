@@ -3,6 +3,9 @@
 #include "define.h"
 #include <Windows.h>
 #include "Struct.h"
+
+#include <math.h>
+#include <assert.h>
 #include <vector>
 using std::vector;
 #include<string>

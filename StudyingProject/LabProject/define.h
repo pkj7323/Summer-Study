@@ -12,6 +12,13 @@
 			type();\
 			~type();
 
+#define KEY_CHECK(key, state) KeyMgr::Instance()->GetKeyState(key) == state
+#define KEY_HOLD(key) KEY_CHECK(key, KEY_STATE::HOLD)
+#define KEY_AWAY(key) KEY_CHECK(key, KEY_STATE::AWAY)
+#define KEY_TAP(key) KEY_CHECK(key, KEY_STATE::TAP)
+#define KEY_NONE(key) KEY_CHECK(key, KEY_STATE::NONE)
+
+
 #define fDT TimeMgr::Instance()->GetDeltaTimeF()
 #define DT TimeMgr::Instance()->GetDeltaTime()
 
@@ -22,6 +29,7 @@
 #define Vec2_Left Vec2(-1.f,0.f)
 #define Vec2_Right Vec2(1.f,0.f)
 
+#define PI 3.1415926535f
 enum class GROUP_TYPE
 {
 	DEFAULT,

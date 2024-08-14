@@ -3,7 +3,7 @@
 #include "TimeMgr.h"
 #include "CCore.h"
 Missile::Missile() :
-	m_speed{ 500.f }, m_dir{ Vec2_Zero }, m_isFired{ false }
+	m_speed{ 500.f }, m_dir{ Vec2_Zero }, m_isFired{ false }, m_theta{ PI/2.f }
 {
 	SetDamage(0.f);
 	SetIsDead(false);
@@ -20,8 +20,8 @@ void Missile::Update()
 	if (!m_isFired)
 		return;
 	Vec2 curPos = GetPos();
-	curPos.x += m_speed * m_dir.x * fDT;
-	curPos.y += m_speed * m_dir.y * fDT;
+	curPos.x += m_speed * cosf(m_theta) * fDT;
+	curPos.y += m_speed * sinf(m_theta) * fDT;
 
 	SetPos(curPos);
 	if (fabs(GetPos().x - CCore::Instance()->GetResolution().x) > static_cast<float>(CCore::Instance()->GetResolution().x + GetScale().x)
