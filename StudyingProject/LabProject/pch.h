@@ -4,7 +4,9 @@
 #include <Windows.h>
 #include "Struct.h"
 
-#include <math.h>
+#include <cmath>
+#include <algorithm>
+
 #include <assert.h>
 #include <vector>
 using std::vector;

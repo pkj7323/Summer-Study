@@ -29,7 +29,7 @@
 #define Vec2_Left Vec2(-1.f,0.f)
 #define Vec2_Right Vec2(1.f,0.f)
 
-#define PI 3.1415926535f
+#define PI 3.14159274101257324219f
 enum class GROUP_TYPE
 {
 	DEFAULT,

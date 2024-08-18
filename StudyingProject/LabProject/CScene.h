@@ -18,7 +18,7 @@ public:
 	void Update(); //업데이트를 강제할 필요성이 없을 수도 있다.
 	void Render(HDC hDC);	//렌더링을 강제할 필요성이 없을 수도 있다.
 
-	void Shoot(Vec2 pos, float damage, float speed, Vec2 Dir);
+	void Shoot(Vec2 pos, float damage, float speed, float theta);
 	
 	
 	vector<CObject*>& GetObjectArr(GROUP_TYPE eGroupType) { return m_vecObj[static_cast<UINT>(eGroupType)]; }

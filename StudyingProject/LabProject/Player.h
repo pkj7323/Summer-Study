@@ -9,5 +9,7 @@ public:
 
 	void Update() override;
 	void Render(HDC hDC) override;
+private:
+	float	m_ShootDir;
 };
 

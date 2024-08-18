@@ -59,10 +59,11 @@ void CScene::Render(HDC hDC)
 	}
 }
 
-void CScene::Shoot(Vec2 pos, float damage, float speed, Vec2 Dir)
+void CScene::Shoot(Vec2 pos, float damage, float speed, float theta)
 {
+	
 	auto pMissile = AddObject<Missile>(GROUP_TYPE::MISSILE);
-	pMissile->Shoot(pos, damage, speed, Dir);
+	pMissile->Shoot(pos, damage, speed, theta);
 }
 
 

@@ -7,7 +7,7 @@
 
 #include "SceneMgr.h"
 #include "CScene.h"
-Player::Player()
+Player::Player() : m_ShootDir{ 90.f }
 {
 }
 Player::~Player()
@@ -33,47 +33,19 @@ void Player::Update()
 		vPos.x -= 200 * fDT;
 	}
 
+	if (KEY_HOLD(KEY::LEFT))
+	{
+		m_ShootDir -= 100.f * fDT;
+	}
+	if (KEY_HOLD(KEY::RIGHT))
+	{
+		m_ShootDir += 100.f * fDT;
+	}
 	
-	if (KEY_HOLD(KEY::DOWN))
+	
+	if (KEY_TAP(KEY::SPACE))
 	{
-		if (KEY_TAP(KEY::RIGHT))
-		{
-			SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2(1.f, 1.f));
-		}
-		else if (KEY_TAP(KEY::LEFT))
-		{
-			SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2(-1.f, 1.f));
-		}
-		
-	}
-	if (KEY_HOLD(KEY::UP))
-	{
-		if (KEY_TAP(KEY::RIGHT))
-		{
-			SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2(1.f, -1.f));
-		}
-		else if (KEY_TAP(KEY::LEFT))
-		{
-			SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2(-1.f, -1.f));
-		}
-		
-	}
-	if (KEY_TAP(KEY::DOWN))
-	{
-		
-		SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2_Down);
-	}
-	if (KEY_TAP(KEY::RIGHT) && KEY_HOLD(KEY::UP) == false && KEY_HOLD(KEY::DOWN) == false)
-	{
-		SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2_Right);
-	}
-	if (KEY_TAP(KEY::LEFT) && KEY_HOLD(KEY::UP) == false && KEY_HOLD(KEY::DOWN) == false)
-	{
-		SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2_Left);
-	}
-	if (KEY_TAP(KEY::UP))
-	{
-		SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), 1, NULL, Vec2_Up);
+		SceneMgr::Instance()->GetCurrScene()->Shoot(vPos, 10.f, 500.f, m_ShootDir);
 	}
 	
 	SetPos(vPos);
