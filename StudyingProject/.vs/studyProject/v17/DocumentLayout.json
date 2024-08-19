@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Missile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\Missile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\cTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\cTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CResource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CResource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CResource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CResource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\studyProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\studyProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Struct.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\Struct.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,8 +51,20 @@
       "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Struct.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\Struct.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\SceneMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\SceneMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\TimeMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\TimeMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\TimeMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\TimeMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Missile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\Missile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\MIssile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -31,20 +75,8 @@
       "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\Resource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\TimeMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\TimeMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\KeyMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -55,24 +87,12 @@
       "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\SceneMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\SceneMgr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\TimeMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\TimeMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CCore.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\SceneMgr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -93,10 +113,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\CCore.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\studyProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|solutionrelative:LabProject\\studyProject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{80A074BB-970C-4C8F-AFAC-5F3B7EE03BE0}|LabProject\\LabProject.vcxproj|C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -127,7 +143,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -135,83 +151,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Resource.h",
-              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Resource.h",
-              "RelativeDocumentMoniker": "LabProject\\Resource.h",
-              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Resource.h",
-              "RelativeToolTip": "LabProject\\Resource.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-18T03:56:55.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Missile.cpp",
-              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Missile.cpp",
-              "RelativeDocumentMoniker": "LabProject\\Missile.cpp",
-              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Missile.cpp",
-              "RelativeToolTip": "LabProject\\Missile.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "DocumentIndex": 0,
+              "Title": "CTexture.cpp",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CTexture.cpp",
+              "RelativeDocumentMoniker": "LabProject\\CTexture.cpp",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CTexture.cpp",
+              "RelativeToolTip": "LabProject\\CTexture.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-05T10:18:07.079Z",
+              "WhenOpened": "2024-08-19T07:42:12.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Player.h",
-              "RelativeDocumentMoniker": "LabProject\\Player.h",
-              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Player.h",
-              "RelativeToolTip": "LabProject\\Player.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-24T12:18:05.144Z",
+              "Title": "CResource.cpp",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CResource.cpp",
+              "RelativeDocumentMoniker": "LabProject\\CResource.cpp",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CResource.cpp",
+              "RelativeToolTip": "LabProject\\CResource.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-19T07:35:35.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "StartScene.cpp",
-              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\StartScene.cpp",
-              "RelativeDocumentMoniker": "LabProject\\StartScene.cpp",
-              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\StartScene.cpp",
-              "RelativeToolTip": "LabProject\\StartScene.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-24T12:10:21.431Z"
+              "DocumentIndex": 2,
+              "Title": "CResource.h",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CResource.h",
+              "RelativeDocumentMoniker": "LabProject\\CResource.h",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CResource.h",
+              "RelativeToolTip": "LabProject\\CResource.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-19T07:35:06.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TimeMgr.cpp",
-              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\TimeMgr.cpp",
-              "RelativeDocumentMoniker": "LabProject\\TimeMgr.cpp",
-              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\TimeMgr.cpp",
-              "RelativeToolTip": "LabProject\\TimeMgr.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T13:40:26.206Z"
+              "DocumentIndex": 1,
+              "Title": "CTexture.h",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CTexture.h",
+              "RelativeDocumentMoniker": "LabProject\\CTexture.h",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CTexture.h",
+              "RelativeToolTip": "LabProject\\CTexture.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-19T07:10:19.418Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "define.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\define.h",
               "RelativeDocumentMoniker": "LabProject\\define.h",
               "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\define.h",
               "RelativeToolTip": "LabProject\\define.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB8AAAAhAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAqwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-26T13:10:18.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "KeyMgr.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\KeyMgr.h",
               "RelativeDocumentMoniker": "LabProject\\KeyMgr.h",
@@ -219,64 +224,63 @@
               "RelativeToolTip": "LabProject\\KeyMgr.h",
               "ViewState": "AQIAADAAAAAAAAAAAAAewEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-14T10:39:16.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-14T10:39:16.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\pch.h",
               "RelativeDocumentMoniker": "LabProject\\pch.h",
               "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\pch.h",
               "RelativeToolTip": "LabProject\\pch.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-06-26T13:09:24.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Struct.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Struct.h",
               "RelativeDocumentMoniker": "LabProject\\Struct.h",
               "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Struct.h",
               "RelativeToolTip": "LabProject\\Struct.h",
-              "ViewState": "AQIAABgAAAAAAAAAAAAvwCYAAAAMAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-07-04T13:18:29.524Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "CScene.cpp",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CScene.cpp",
               "RelativeDocumentMoniker": "LabProject\\CScene.cpp",
               "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CScene.cpp",
               "RelativeToolTip": "LabProject\\CScene.cpp",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEEAAAANAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAvwD0AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-17T11:21:22.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Player.cpp",
               "RelativeDocumentMoniker": "LabProject\\Player.cpp",
               "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Player.cpp",
               "RelativeToolTip": "LabProject\\Player.cpp",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACoAAAACAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-24T12:19:00.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "TimeMgr.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\TimeMgr.h",
               "RelativeDocumentMoniker": "LabProject\\TimeMgr.h",
@@ -290,6 +294,107 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "SceneMgr.h",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\SceneMgr.h",
+              "RelativeDocumentMoniker": "LabProject\\SceneMgr.h",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\SceneMgr.h",
+              "RelativeToolTip": "LabProject\\SceneMgr.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-17T11:19:48.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "studyProject.cpp",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\studyProject.cpp",
+              "RelativeDocumentMoniker": "LabProject\\studyProject.cpp",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\studyProject.cpp",
+              "RelativeToolTip": "LabProject\\studyProject.cpp",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAvwBUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T10:36:12.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TimeMgr.cpp",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\TimeMgr.cpp",
+              "RelativeDocumentMoniker": "LabProject\\TimeMgr.cpp",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\TimeMgr.cpp",
+              "RelativeToolTip": "LabProject\\TimeMgr.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T13:40:26.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StartScene.cpp",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\StartScene.cpp",
+              "RelativeDocumentMoniker": "LabProject\\StartScene.cpp",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\StartScene.cpp",
+              "RelativeToolTip": "LabProject\\StartScene.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-24T12:10:21.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CCore.cpp",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CCore.cpp",
+              "RelativeDocumentMoniker": "LabProject\\CCore.cpp",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CCore.cpp",
+              "RelativeToolTip": "LabProject\\CCore.cpp",
+              "ViewState": "AQIAACAAAAAAAAAAAAAvwBwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-26T12:44:55.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Player.h",
+              "RelativeDocumentMoniker": "LabProject\\Player.h",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Player.h",
+              "RelativeToolTip": "LabProject\\Player.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-24T12:18:05.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Missile.cpp",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Missile.cpp",
+              "RelativeDocumentMoniker": "LabProject\\Missile.cpp",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Missile.cpp",
+              "RelativeToolTip": "LabProject\\Missile.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-08-05T10:18:07.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Resource.h",
+              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Resource.h",
+              "RelativeDocumentMoniker": "LabProject\\Resource.h",
+              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Resource.h",
+              "RelativeToolTip": "LabProject\\Resource.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-08-18T03:56:55.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "CObject.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CObject.h",
               "RelativeDocumentMoniker": "LabProject\\CObject.h",
@@ -297,12 +402,11 @@
               "RelativeToolTip": "LabProject\\CObject.h",
               "ViewState": "AQIAABAAAAAAAAAAAAAewBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-04T12:50:51.958Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T12:50:51.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 17,
               "Title": "CScene.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CScene.h",
               "RelativeDocumentMoniker": "LabProject\\CScene.h",
@@ -310,12 +414,11 @@
               "RelativeToolTip": "LabProject\\CScene.h",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-17T11:21:16.141Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T11:21:16.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 16,
               "Title": "Missile.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Missile.h",
               "RelativeDocumentMoniker": "LabProject\\Missile.h",
@@ -323,12 +426,11 @@
               "RelativeToolTip": "LabProject\\Missile.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-05T09:46:30.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T09:46:30.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "CObject.cpp",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CObject.cpp",
               "RelativeDocumentMoniker": "LabProject\\CObject.cpp",
@@ -340,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Monster.cpp",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Monster.cpp",
               "RelativeDocumentMoniker": "LabProject\\Monster.cpp",
@@ -352,19 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SceneMgr.h",
-              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\SceneMgr.h",
-              "RelativeDocumentMoniker": "LabProject\\SceneMgr.h",
-              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\SceneMgr.h",
-              "RelativeToolTip": "LabProject\\SceneMgr.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-17T11:19:48.389Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Monster.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\Monster.h",
               "RelativeDocumentMoniker": "LabProject\\Monster.h",
@@ -376,19 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "CCore.cpp",
-              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CCore.cpp",
-              "RelativeDocumentMoniker": "LabProject\\CCore.cpp",
-              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CCore.cpp",
-              "RelativeToolTip": "LabProject\\CCore.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-26T12:44:55.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "SceneMgr.cpp",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\SceneMgr.cpp",
               "RelativeDocumentMoniker": "LabProject\\SceneMgr.cpp",
@@ -400,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "CCore.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\CCore.h",
               "RelativeDocumentMoniker": "LabProject\\CCore.h",
@@ -412,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "StartScene.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\StartScene.h",
               "RelativeDocumentMoniker": "LabProject\\StartScene.h",
@@ -424,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "vector",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\vector",
@@ -436,19 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "studyProject.cpp",
-              "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\studyProject.cpp",
-              "RelativeDocumentMoniker": "LabProject\\studyProject.cpp",
-              "ToolTip": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\studyProject.cpp",
-              "RelativeToolTip": "LabProject\\studyProject.cpp",
-              "ViewState": "AQIAABQAAAAAAAAAAAAewCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-26T10:36:12.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "framework.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\framework.h",
               "RelativeDocumentMoniker": "LabProject\\framework.h",
@@ -460,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "KeyMgr.cpp",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\KeyMgr.cpp",
               "RelativeDocumentMoniker": "LabProject\\KeyMgr.cpp",
@@ -472,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "Microsoft.CppBuild.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Msbuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Msbuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
@@ -484,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "LabProject.cpp",
               "DocumentMoniker": "C:\\Users\\MSI\\source\\repos\\LabProject\\LabProject\\LabProject.cpp",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\MSI\\source\\repos\\LabProject\\LabProject\\LabProject.cpp",
@@ -496,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "studyProject.h",
               "DocumentMoniker": "C:\\Users\\PARK\\Documents\\Summer-Study\\StudyingProject\\LabProject\\studyProject.h",
               "RelativeDocumentMoniker": "LabProject\\studyProject.h",

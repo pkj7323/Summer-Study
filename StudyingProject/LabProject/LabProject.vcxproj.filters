@@ -51,6 +51,9 @@
     <Filter Include="Game\01_Object\Projectile">
       <UniqueIdentifier>{6762ca02-918d-4149-8b17-36dcca5270c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\04_Resource">
+      <UniqueIdentifier>{799a9304-d846-4245-96ff-4e285146e44a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -104,6 +107,12 @@
     <ClInclude Include="Missile.h">
       <Filter>Game\01_Object\Projectile</Filter>
     </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>Game\04_Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="CResource.h">
+      <Filter>Game\04_Resource</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp">
@@ -138,6 +147,12 @@
     </ClCompile>
     <ClCompile Include="Missile.cpp">
       <Filter>Game\01_Object\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>Game\04_Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="CResource.cpp">
+      <Filter>Game\04_Resource</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

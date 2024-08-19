@@ -7,7 +7,7 @@
 
 #include "SceneMgr.h"
 #include "CScene.h"
-Player::Player() : m_ShootDir{ 90.f }
+Player::Player() : m_ShootAngle{ 90.f }, m_Damge{ 1.f }, m_ShootSpeed{ 500.f }
 {
 }
 Player::~Player()
@@ -16,6 +16,15 @@ Player::~Player()
 void Player::Update()
 {
 	Vec2 vPos = GetPos();
+	if (m_ShootAngle < 0.f)
+	{
+		m_ShootAngle = 360.f;
+	}
+	else if (m_ShootAngle > 360.f)
+	{
+		m_ShootAngle = 0.f;
+	}
+	
 	if (KEY_HOLD(KEY::W))
 	{
 		vPos.y -= 200 * fDT;
@@ -35,17 +44,17 @@ void Player::Update()
 
 	if (KEY_HOLD(KEY::LEFT))
 	{
-		m_ShootDir -= 100.f * fDT;
+		m_ShootAngle -= 100.f * fDT;
 	}
 	if (KEY_HOLD(KEY::RIGHT))
 	{
-		m_ShootDir += 100.f * fDT;
+		m_ShootAngle += 100.f * fDT;
 	}
 	
 	
 	if (KEY_TAP(KEY::SPACE))
 	{
-		SceneMgr::Instance()->GetCurrScene()->Shoot(vPos, 10.f, 500.f, m_ShootDir);
+		SceneMgr::Instance()->GetCurrScene()->Shoot(GetPos(), m_Damge, m_ShootSpeed, m_ShootAngle);
 	}
 	
 	SetPos(vPos);

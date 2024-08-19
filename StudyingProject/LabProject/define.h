@@ -50,3 +50,11 @@ enum class SCENE_TYPE
 
 	END,
 };
+
+enum class ResourceType	
+{
+	TEXTURE,
+	ANIMATION,
+	SOUND,
+	END,
+};

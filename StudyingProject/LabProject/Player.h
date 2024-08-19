@@ -10,6 +10,8 @@ public:
 	void Update() override;
 	void Render(HDC hDC) override;
 private:
-	float	m_ShootDir;
+	float	m_ShootAngle;
+	float	m_Damge;
+	float	m_ShootSpeed;
 };
 

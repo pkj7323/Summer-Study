@@ -1,12 +1,7 @@
 #pragma once
-
-#include "define.h"
 #include <Windows.h>
-#include "Struct.h"
-
 #include <cmath>
-#include <algorithm>
-
+#include <map>
 #include <assert.h>
 #include <vector>
 using std::vector;
@@ -15,3 +10,7 @@ using std::string;
 using std::wstring;
 #include<iostream>
 using std::cout;
+#include <gdiplus.h>
+#pragma comment(lib, "gdiplus.lib")
+#include "define.h"
+#include "Struct.h"
