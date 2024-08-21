@@ -10,7 +10,10 @@ public:
 
 	void Shoot(Vec2 pos, float damage, float speed, float theta);
 
-	void SetDir(Vec2 dir) { m_dir = dir; }
+	void SetDir(Vec2 dir) { 
+		m_dir = dir; 
+		m_dir.Normalize(); 
+	}
 	Vec2 GetDir() { return m_dir; }
 private:
 	float		m_speed;

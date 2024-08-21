@@ -5,6 +5,7 @@
 Missile::Missile() :
 	m_speed{ 500.f }, m_dir{ Vec2_Up }, m_isFired{ false }
 {
+	m_dir.Normalize();
 	SetDamage(0.f);
 	SetIsDead(false);
 }
@@ -21,7 +22,7 @@ void Missile::Update()
 		return;
 	Vec2 curPos = GetPos();
 
-	m_dir.Normalize();
+	
 	curPos.x += m_speed * m_dir.x * fDT;
 	curPos.y += m_speed * m_dir.y * fDT;
 

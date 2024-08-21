@@ -27,22 +27,18 @@ struct Vec2 {
 			return false;
 		}
 	}
-	void Normalize() {
-		if (x == 0 && y == 0)
-		{
-			return;
-		}
+	Vec2& Normalize() {
 		float absSize = sqrtf(x * x + y * y);
+		assert(absSize != 0);
 		x /= absSize;
 		y /= absSize;
+		return *this;
 	}
 	void Rotate(float angle) {
 		float radian = angle * PI / 180.f;
-		float cosTheta = cosf(radian);
-		float sinTheta = sinf(radian);
 		float tempX = x;
-		x = x * cosTheta - y * sinTheta;
-		y = tempX * sinTheta + y * cosTheta;
+		x = x * cosf(radian) - y * sinf(radian);
+		y = tempX * sinf(radian) + y * cosf(radian);
 	}
 	//벡터의 정규화 만들고 그거 이용해서 미사일 만들어오기
 	//절대경로, 상대경로 알아오기

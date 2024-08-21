@@ -54,6 +54,9 @@
     <Filter Include="Game\04_Resource">
       <UniqueIdentifier>{799a9304-d846-4245-96ff-4e285146e44a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\02_Manager\Path">
+      <UniqueIdentifier>{3580427b-2681-49f4-9871-d6205dd25635}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -113,6 +116,9 @@
     <ClInclude Include="CResource.h">
       <Filter>Game\04_Resource</Filter>
     </ClInclude>
+    <ClInclude Include="PathMgr.h">
+      <Filter>Game\02_Manager\Path</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp">
@@ -153,6 +159,9 @@
     </ClCompile>
     <ClCompile Include="CResource.cpp">
       <Filter>Game\04_Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="PathMgr.cpp">
+      <Filter>Game\02_Manager\Path</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
