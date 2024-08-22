@@ -8,6 +8,7 @@ public:
 
 	virtual HRESULT Load(const wstring& _path) override;
 
+	void Render(HDC _hdc);
 
 	
 

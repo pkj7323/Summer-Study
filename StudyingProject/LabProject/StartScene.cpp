@@ -4,6 +4,8 @@
 #include "Player.h"
 #include "Monster.h"
 #include "CCore.h"
+#include "CTexture.h"
+#include "PathMgr.h"
 StartScene::StartScene()
 {
 }
@@ -19,7 +21,6 @@ void StartScene::Enter()
 	pObj->SetPos(Vec2(640, 348));
 	pObj->SetScale(Vec2(100, 100));
 	
-
 	//몬스터 추가
 	int monCount = 5;
 	float moveDist = 25.f;

@@ -48,6 +48,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     // 전역 문자열을 초기화합니다.
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);//제목 표시줄에 띄울 문자열
     LoadStringW(hInstance, IDC_LABPROJECT, szWindowClass, MAX_LOADSTRING);//창의 이름 
+	Gdiplus::GdiplusStartup(&gpToken, &gpsi, nullptr);
     MyRegisterClass(hInstance);
 
     // 애플리케이션 초기화를 수행합니다:
