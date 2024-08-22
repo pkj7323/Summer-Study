@@ -5,6 +5,6 @@ class PathMgr
 public:
 	
 private:
-	map<wstring,wstring> m_Paths;
+	wstring	 m_Paths;
 };
 

@@ -7,13 +7,15 @@
   Missile.cpp
   Monster.cpp
   PathMgr.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
   Player.cpp
   SceneMgr.cpp
   StartScene.cpp
   studyProject.cpp
   TimeMgr.cpp
   코드를 생성하고 있습니다.
-  Previous IPDB not found, fall back to full compilation.
-  All 300 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  295 of 300 functions (98.3%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
   코드를 생성했습니다.
-  LabProject.vcxproj -> C:\Users\MSI\Documents\GitHub\Summer-Study\StudyingProject\Output\bin\studyProject.exe
+  LabProject.vcxproj -> C:\Users\PARK\Documents\Summer-Study\StudyingProject\Output\bin\studyProject.exe
