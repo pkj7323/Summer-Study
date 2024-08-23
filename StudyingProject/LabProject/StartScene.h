@@ -10,7 +10,7 @@ public:
 	void Enter();
 	void Exit();
 	void Update();
-	void Render(HDC hDC);
+	
 
 	
 

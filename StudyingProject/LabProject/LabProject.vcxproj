@@ -140,7 +140,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CComponent.h" />
     <ClInclude Include="CCore.h" />
+    <ClInclude Include="CRenderer.h" />
     <ClInclude Include="CTexture.h" />
     <ClInclude Include="CObject.h" />
     <ClInclude Include="CResource.h" />
@@ -162,7 +164,9 @@
     <ClInclude Include="TimeMgr.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CComponent.cpp" />
     <ClCompile Include="CCore.cpp" />
+    <ClCompile Include="CRenderer.cpp" />
     <ClCompile Include="CTexture.cpp" />
     <ClCompile Include="CObject.cpp" />
     <ClCompile Include="CResource.cpp" />

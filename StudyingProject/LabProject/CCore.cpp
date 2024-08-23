@@ -78,18 +78,11 @@ void CCore::update()
 
 void CCore::render()
 {
-
-
 	
 	Rectangle(m_mdc, -1, -1, m_ptResolution.x + 1, m_ptResolution.y + 1);
-	
+	//sceneMgr에서 렌더링을 하게 만든다.
 	SceneMgr::Instance()->Render(m_mdc);
-	CTexture* pTexture = new CTexture;
-	wstring curPath = PathMgr::Instance()->GetPath();
-
-	pTexture->Load(curPath + L"Texture\\Owl.png");
-	pTexture->Render(m_mdc);
-
+	
 	BitBlt(m_hdc, 0, 0, m_ptResolution.x, m_ptResolution.y, m_mdc, 0, 0, SRCCOPY);
 	//프레임 드랍이 나타나지만 적어도 이 이외에 프레임 드랍이 발생하지 않을 수있다.
 	//3d로 가면 너무 많아지므로 gpu사용

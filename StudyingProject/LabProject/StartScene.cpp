@@ -6,6 +6,7 @@
 #include "CCore.h"
 #include "CTexture.h"
 #include "PathMgr.h"
+#include "CRenderer.h"
 StartScene::StartScene()
 {
 }
@@ -20,7 +21,9 @@ void StartScene::Enter()
 	auto pObj = AddObject<Player>(GROUP_TYPE::PLAYER);
 	pObj->SetPos(Vec2(640, 348));
 	pObj->SetScale(Vec2(100, 100));
-	
+	auto pTex = pObj->AddComponent<CRenderer>(ComponentType::SPRITE);
+	pTex->Load(PathMgr::Instance()->GetPath() + L"Texture\\Owl.png");
+
 	//몬스터 추가
 	int monCount = 5;
 	float moveDist = 25.f;
@@ -47,6 +50,4 @@ void StartScene::Update()
 	
 }
 
-void StartScene::Render(HDC hDC)
-{
-}
+

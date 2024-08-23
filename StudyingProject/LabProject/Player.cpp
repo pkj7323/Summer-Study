@@ -15,6 +15,7 @@ Player::~Player()
 }
 void Player::Update()
 {
+	CObject::Update();
 	Vec2 vPos = GetPos();
 	if (m_ShootAngle < 0.f)
 	{
@@ -62,11 +63,7 @@ void Player::Update()
 
 void Player::Render(HDC hDC)
 {
-	Rectangle(hDC
-		, static_cast<int>(GetPos().x - GetScale().x / 2.f)
-		, static_cast<int>(GetPos().y - GetScale().y / 2.f)
-		, static_cast<int>(GetPos().x + GetScale().x / 2.f)
-		, static_cast<int>(GetPos().y + GetScale().y / 2.f));
+	CObject::Render(hDC);
 
 }
 

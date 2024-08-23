@@ -27,10 +27,10 @@ HRESULT CTexture::Load(const wstring& _path)
     
 }
 
-void CTexture::Render(HDC _hdc)
+void CTexture::Render(HDC _hdc, INT x,INT y,INT width,INT height)
 {
 	
 	Gdiplus::Graphics graphics(_hdc);
-	graphics.DrawImage(m_pImage, 0, 0, m_iWidth, m_iHeight);
+	graphics.DrawImage(m_pImage, x, y, width, height);
 	
 }

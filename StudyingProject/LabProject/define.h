@@ -58,3 +58,12 @@ enum class ResourceType
 	SOUND,
 	END,
 };
+
+enum class ComponentType
+{
+	TRANSFORM,
+	SPRITE,
+	ANIMATION,
+	COLLIDER,
+	END=16,
+};

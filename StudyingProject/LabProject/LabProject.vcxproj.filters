@@ -57,6 +57,12 @@
     <Filter Include="Game\02_Manager\Path">
       <UniqueIdentifier>{3580427b-2681-49f4-9871-d6205dd25635}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\05_Component">
+      <UniqueIdentifier>{6a085843-9e5c-48a0-a18e-d99be0cebe80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\05_Component\Renderer">
+      <UniqueIdentifier>{381706d7-16f8-42fd-a632-825b295f01f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -119,6 +125,12 @@
     <ClInclude Include="PathMgr.h">
       <Filter>Game\02_Manager\Path</Filter>
     </ClInclude>
+    <ClInclude Include="CComponent.h">
+      <Filter>Game\05_Component</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderer.h">
+      <Filter>Game\05_Component\Renderer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCore.cpp">
@@ -162,6 +174,12 @@
     </ClCompile>
     <ClCompile Include="PathMgr.cpp">
       <Filter>Game\02_Manager\Path</Filter>
+    </ClCompile>
+    <ClCompile Include="CComponent.cpp">
+      <Filter>Game\05_Component</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderer.cpp">
+      <Filter>Game\05_Component\Renderer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
