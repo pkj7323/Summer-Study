@@ -1,22 +1,22 @@
 #pragma once
 
-// Àü¹æ ¼±¾ð  : Å¬·¡½ºÀÇ ¼±¾ð¸¸ ÇÏ°í ±¸ÇöÀº ³ªÁß¿¡ ÇÑ´Ù.
-// ÄÄÆÄÀÏ·¯ ¼Óµµ°¡ ´À·ÁÁö´Â °ÍÀ» ¹æÁöÇÏ±âÀ§ÇØ »ç¿ëÇÑ´Ù.
-// Àü¹æ ¼±¾ðÇÑ Å¬·¡½º°¡ º¯°æµÇµµ ÄÄÆÄÀÏÀ» ´Ù½ÃÇÒ ÇÊ¿ä°¡ ¾ø´Ù.
+// ì „ë°© ì„ ì–¸  : í´ëž˜ìŠ¤ì˜ ì„ ì–¸ë§Œ í•˜ê³  êµ¬í˜„ì€ ë‚˜ì¤‘ì— í•œë‹¤.
+// ì»´íŒŒì¼ëŸ¬ ì†ë„ê°€ ëŠë ¤ì§€ëŠ” ê²ƒì„ ë°©ì§€í•˜ê¸°ìœ„í•´ ì‚¬ìš©í•œë‹¤.
+// ì „ë°© ì„ ì–¸í•œ í´ëž˜ìŠ¤ê°€ ë³€ê²½ë˜ë„ ì»´íŒŒì¼ì„ ë‹¤ì‹œí•  í•„ìš”ê°€ ì—†ë‹¤.
 class CObject;
 class Missile;
 class CScene
 {
 public:
 	CScene();
-	virtual ~CScene();	//±×·¯³ª ¼Ò¸êÀÚ´Â °¡»óÇÔ¼ö·Î ¸¸µé¾î¾ßÇÑ´Ù. °¡»ó ÇÔ¼ö·Î ¸¸µé¸é ÀÚ½Ä Å¬·¡½ºÀÇ ¼Ò¸êÀÚ°¡ È£ÃâµÈ´Ù.
-	//¿Ö? -> ÀÚ½Ä Å¬·¡½º°¡ ¼Ò¸êÀÚ¸¦ È£Ãâ ÇÞÀ» ¶§ ºÎ¸ð Å¬·¡½ºÀÇ ¼Ò¸êÀÚ°¡ È£ÃâµÇÁö ¾Ê´Â´Ù. ±×·¡¼­ °¡»óÇÔ¼ö·Î ¸¸µé¾î¾ßÇÑ´Ù.
+	virtual ~CScene();	//ê·¸ëŸ¬ë‚˜ ì†Œë©¸ìžëŠ” ê°€ìƒí•¨ìˆ˜ë¡œ ë§Œë“¤ì–´ì•¼í•œë‹¤. ê°€ìƒ í•¨ìˆ˜ë¡œ ë§Œë“¤ë©´ ìžì‹ í´ëž˜ìŠ¤ì˜ ì†Œë©¸ìžê°€ í˜¸ì¶œëœë‹¤.
+	//ì™œ? -> ìžì‹ í´ëž˜ìŠ¤ê°€ ì†Œë©¸ìžë¥¼ í˜¸ì¶œ í–‡ì„ ë•Œ ë¶€ëª¨ í´ëž˜ìŠ¤ì˜ ì†Œë©¸ìžê°€ í˜¸ì¶œë˜ì§€ ì•ŠëŠ”ë‹¤. ê·¸ëž˜ì„œ ê°€ìƒí•¨ìˆ˜ë¡œ ë§Œë“¤ì–´ì•¼í•œë‹¤.
 
 	virtual void Enter() = 0;
-	virtual	void Exit() = 0;	//¼ø¼ö °¡»óÇÔ¼ö·Î ¸¸µé¾î¼­ »ó¼Ó¹ÞÀº Å¬·¡½º¿¡¼­ ±¸ÇöÇÏµµ·Ï ÇÑ´Ù.
+	virtual void Exit() = 0;	//ìˆœìˆ˜ ê°€ìƒí•¨ìˆ˜ë¡œ ë§Œë“¤ì–´ì„œ ìƒì†ë°›ì€ í´ëž˜ìŠ¤ì—ì„œ êµ¬í˜„í•˜ë„ë¡ í•œë‹¤.
 	
-	void Update(); //¾÷µ¥ÀÌÆ®¸¦ °­Á¦ÇÒ ÇÊ¿ä¼ºÀÌ ¾øÀ» ¼öµµ ÀÖ´Ù.
-	virtual void Render(HDC hDC);	//·»´õ¸µÀ» °­Á¦ÇÒ ÇÊ¿ä¼ºÀÌ ¾øÀ» ¼öµµ ÀÖ´Ù.
+	void Update(); //ì—…ë°ì´íŠ¸ë¥¼ ê°•ì œí•  í•„ìš”ì„±ì´ ì—†ì„ ìˆ˜ë„ ìžˆë‹¤.
+	virtual void Render(HDC hDC);	//ë Œë”ë§ì„ ê°•ì œí•  í•„ìš”ì„±ì´ ì—†ì„ ìˆ˜ë„ ìžˆë‹¤.
 
 	void Shoot(Vec2 pos, float damage, float speed, float theta);
 	
@@ -38,9 +38,9 @@ protected:
 	void DeleteObject();
 	
 private:
-	vector<CObject*>	m_vecObj[static_cast<UINT>(GROUP_TYPE::END)];//32°³ÀÇ ¹è¿­À» ¸¸µç´Ù.
-	//2Â÷¿ø ¹è¿­Ã³·³ ¿©·¯°³ÀÇ ¹è¿­ÀÌ »ý¼º µÇÁö¸¸ 2Â÷¿ø ¹è¿­Ã³·³ ¿¬°áµÇ¾î ÀÖÁö ¾Ê´Ù.
-	//±×·ìÅ¸ÀÔ¿¡ ¸Â´Â ¿ÀºêÁ§Æ®¸¦ Ãß°¡ÇÏ±â À§ÇØ »ç¿ëÇÑ´Ù. ±âº»ÀÌ 32°³ ÀÌ¹Ç·Î 32°³ÀÇ ¹è¿­À» ¸¸µç´Ù.
+	vector<CObject*>	m_vecObj[static_cast<UINT>(GROUP_TYPE::END)];//32ê°œì˜ ë°°ì—´ì„ ë§Œë“ ë‹¤.
+	//2ì°¨ì› ë°°ì—´ì²˜ëŸ¼ ì—¬ëŸ¬ê°œì˜ ë°°ì—´ì´ ìƒì„± ë˜ì§€ë§Œ 2ì°¨ì› ë°°ì—´ì²˜ëŸ¼ ì—°ê²°ë˜ì–´ ìžˆì§€ ì•Šë‹¤.
+	//ê·¸ë£¹íƒ€ìž…ì— ë§žëŠ” ì˜¤ë¸Œì íŠ¸ë¥¼ ì¶”ê°€í•˜ê¸° ìœ„í•´ ì‚¬ìš©í•œë‹¤. ê¸°ë³¸ì´ 32ê°œ ì´ë¯€ë¡œ 32ê°œì˜ ë°°ì—´ì„ ë§Œë“ ë‹¤.
 	wstring				m_strName;
 };
 
