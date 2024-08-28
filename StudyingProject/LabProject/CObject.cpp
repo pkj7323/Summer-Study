@@ -39,12 +39,7 @@ void CObject::Update()
 
 void CObject::Render(HDC hDC)
 {
-	//»ç°¢Çü Äİ¸®Á¯ ¿µ¿ª °°Àº°Å u know?
-	Rectangle(hDC
-		, static_cast<int>(vPos.x - vScale.x / 2.f)
-		, static_cast<int>(vPos.y - vScale.y / 2.f)
-		, static_cast<int>(vPos.x + vScale.x / 2.f)
-		, static_cast<int>(vPos.y + vScale.y / 2.f));
+	
 	for (auto pComponents : m_vecComponents)
 	{
 		if (pComponents==nullptr)
@@ -53,4 +48,10 @@ void CObject::Render(HDC hDC)
 		}
 		pComponents->Render(hDC);
 	}
+//ì‚¬ê°í˜• ì½œë¦¬ì ¼ ì˜ì—­ ê°™ì€ê±° u know?
+	Rectangle(hDC
+		, static_cast<int>(vPos.x - vScale.x / 2.f)
+		, static_cast<int>(vPos.y - vScale.y / 2.f)
+		, static_cast<int>(vPos.x + vScale.x / 2.f)
+		, static_cast<int>(vPos.y + vScale.y / 2.f));
 }
