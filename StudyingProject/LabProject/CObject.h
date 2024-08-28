@@ -45,7 +45,7 @@ public:
 	virtual GROUP_TYPE GetGroupType() { return eGroupType; }
 
 	virtual void SetDamage(float damage) { bDamage = damage; }
-	virtual float GetDamage() { return bDamage; }
+	virtual float GetDamage() { return bDamage; } //데미지를 오브젝트에 넣어놓는게 문제가있다. 데미지 체크하는것을 자식 객체에서 할수있게 하거나 데미지 컨트롤하는 매니져가있는것도 좋을 것 같다
 private:
 	vector<CComponent*> m_vecComponents;
 	Vec2				vPos;
