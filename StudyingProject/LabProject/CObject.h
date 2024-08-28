@@ -18,7 +18,7 @@ public:
 	}
 	template <typename T>
 	T* GetComponent(ComponentType eGroupType)
-	{
+	{//인수로 넘겨주는 컴포넌트 타입이 필요 없을 것같다
 		T* comp = nullptr;
 		for (auto component : m_vecComponents )
 		{
